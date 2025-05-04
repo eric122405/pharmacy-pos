@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pharmacy POS</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Pharmacy Point of Sale</h1>
+
+    <div class="inventory">
+      <h2>Inventory</h2>
+      <table id="inventory-table">
+        <thead>
+          <tr>
+            <th>Medicine</th>
+            <th>Price ($)</th>
+            <th>Stock</th>
+            <th>Qty</th>
+            <th>Add</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- JS will populate -->
+        </tbody>
+      </table>
+    </div>
+
+    <div class="receipt">
+      <h2>Receipt</h2>
+      <div id="receipt-items"></div>
+      <p id="totals"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
